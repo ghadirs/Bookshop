@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Book Shop</title>
+</head>
+<body>
+    <div class="container">
+        <!-- side-bar -->
+        <div id="side-bar">
+            <div id="toggle-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li>home</li>
+                <li>about</li>
+                <li>contact</li>
+            </ul>
+        </div>
+        <!-- end of side-bar -->
+        <!-- navbar -->
+        <nav id="navbar">
+            <!-- <div class="container"> -->
+                <div class="items-wrapper">
+                    <div class="item-wrapper">
+                        <div id="nav-left">
+                            <img src="img/bs-logo.png" alt="ketabforoosh" class="main-logo">
+                        </div>
+                        <!-- <div id="nav-center">
+                            <div class="nav-search-wrapper">
+                                <input type="text" placeholder="Search..." class="nav-search">
+                                    <a href="http://google.com">
+                                        <img src="img/img_120965.png" alt="search" class="search-btn-img">
+                                    </a>
+                                </input>
+                            </div>
+                        </div> -->
+                        <div id="nav-right">
+                            <div class="nav-right-wrapper">
+                                <div class="twi-logo nav-item-wrapper">
+                                    <img src="img/twitter.png" alt="twitter">
+                                </div>
+                                <div class="ins-logo nav-item-wrapper">
+                                    <img src="img/instagram.png" alt="instagram">
+                                </div>
+                                <div class="find-bookshop-link nav-item-wrapper">
+                                    <a href="#">find a bookshop</a>
+                                </div>
+                                <div class="browse-link nav-item-wrapper">
+                                    <a href="#">browse</a>
+                                </div>
+                                <div class="basket-logo nav-item-wrapper">
+                                    <img src="img/shopping-basket.png" alt="shop">
+                                </div>
+                                <div class="profile-logo nav-item-wrapper">
+                                    <img src="img/user.png" alt="log in/sign up">
+                                </div>
+                                <div class="lang-logo nav-item-wrapper">
+                                    <img src="img/united-kingdom.png" alt="languague">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- header -->
+        <section id="header">
+            <!-- <div class="container"> -->
+                <div class="header-items-wrapper">
+                    <div class="header-item-wrapper">
+                        <div class="header-title-wrapper">
+                            <p>support local bookstores.</p><br>
+                            <p>shop online with bookshop. </p><br>
+                            <!-- <p>bookshoper</p> -->
+                        </div>
+                        <div class="header-search-area">
+                            <div class="header-search-wrapper">
+                                <input type="text" placeholder="Search..." id="header-search">
+                            <img src="img/img_120965.png" alt="search" id="header-search-button">
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- slide-show -->
+        <section id="slide-show">
+            <div class="container">
+                <div class="slideshow-items-wrapper">
+                    <div class="slideshow-item-wrapper">
+                        <div class="slideshow-container">
+                            <div class="mySlides fade">
+
+                                <div class="numbertext">1 / 3</div>
+                                <img src="img/s2.jpg" alt="image 1" style="width:100%" class="slide-show-img">
+                                <div class="text">Caption Text</div>
+
+                            </div>
+
+                            <div class="mySlides fade">    
+                                <div class="numbertext">2 / 3</div>
+                                    <img src="img/s1.jpg" alt="image 2" style="width:100%" class="slide-show-img">
+                                    <div class="text">Caption Text</div>
+                                </div>
+                            </div>
+
+                            <div class="mySlides fade">    
+                                <div class="numbertext">3 / 3</div>
+                                    <img src="img/s3.jpg" alt="image 3" style="width:100%" class="slide-show-img">
+                                    <div class="text">Caption Text</div>
+                                </div>
+                            </div>
+                            
+                            <a class="prev" onclick="plusSlides(-1)" >&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)" >&#10095;</a>
+
+                        </div>
+                        <br>
+
+                        <div style="text-align:center">
+
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- recommended books -->
+        <section id="recommended-books">
+            <div class="container">
+                <div class="rb-items-wrapper">
+                    <div class="rb-item-wrapper">
+                        <div class="rb-title-wrapper">
+                            <img src="img/s1.jpg" alt="" style="width: 50px" id="rb-title-img">
+                            <div class="book-title-wrapper">
+                                <p id="booktitle-text">This book is awesome! buy it</p>
+                            </div>
+                            <a href="#">
+                            <div class="view-more">
+                                <span> view more </span>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="rb-books-wrapper">
+                            <img src="img/s1.jpg" alt="book1" class="rb-books-img">
+                            <img src="img/s2.jpg" alt="book2" class="rb-books-img">
+                            <img src="img/s3.jpg" alt="book3" class="rb-books-img">
+                            <img src="img/s1.jpg" alt="book4" class="rb-books-img">
+                            <img src="img/s1.jpg" alt="book1" class="rb-books-img">
+                            <img src="img/s2.jpg" alt="book2" class="rb-books-img">
+                            <img src="img/s3.jpg" alt="book3" class="rb-books-img">
+                            <img src="img/s1.jpg" alt="book4" class="rb-books-img">
+                        </div>
+                        <div class="rb-title-wrapper">
+                            <img src="img/s1.jpg" alt="" style="width: 50px" id="rb-title-img">
+                            <div class="book-title-wrapper">
+                                <p id="booktitle-text">This book is awesome! buy it</p>
+                            </div>
+                            <a href="#">
+                            <div class="view-more">
+                                <span> view more </span>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="rb-books-wrapper">
+                            <img src="img/s1.jpg" alt="book1" class="rb-books-img">
+                            <img src="img/s2.jpg" alt="book2" class="rb-books-img">
+                            <img src="img/s3.jpg" alt="book3" class="rb-books-img">
+                            <img src="img/s1.jpg" alt="book4" class="rb-books-img">
+                            <img src="img/s1.jpg" alt="book1" class="rb-books-img">
+                            <img src="img/s2.jpg" alt="book2" class="rb-books-img">
+                            <img src="img/s3.jpg" alt="book3" class="rb-books-img">
+                            <img src="img/s1.jpg" alt="book4" class="rb-books-img">
+                        </div>
+                        <div class="rb-title-wrapper">
+                            <img src="img/s1.jpg" alt="" style="width: 50px" id="rb-title-img">
+                            <div class="book-title-wrapper">
+                                <p id="booktitle-text">This book is awesome! buy it</p>
+                            </div>
+                            <a href="#">
+                            <div class="view-more">
+                                <span> view more </span>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="rb-books-wrapper">
+                            <img src="img/s1.jpg" alt="book1" class="rb-books-img">
+                            <img src="img/s2.jpg" alt="book2" class="rb-books-img">
+                            <img src="img/s3.jpg" alt="book3" class="rb-books-img">
+                            <img src="img/s1.jpg" alt="book4" class="rb-books-img">
+                            <img src="img/s1.jpg" alt="book1" class="rb-books-img">
+                            <img src="img/s2.jpg" alt="book2" class="rb-books-img">
+                            <img src="img/s3.jpg" alt="book3" class="rb-books-img">
+                            <img src="img/s1.jpg" alt="book4" class="rb-books-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- email register -->
+        <section id="email-section">
+            <div class="container">
+                <div class="em-items-wrapper">
+                    <div class="em-item-wrapper">
+                        <div class="er-text">
+                            Sign up for our Newsletter
+                        </div>
+                        <div class="em-link-wrapper em-item-wrapper">
+                            <a href="#">
+                                Register Our Email
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer id="footer">
+            <!-- <div class="container"> -->
+                <div class="items-wrapper">
+                    <div class="footer-item-wrapper">
+                        <div class="footer-leftside">
+                                <div class="about-footer-txt">
+                                    ABOUT <br>
+                                    become an affiliate <br>
+                                    CONTACT <br>
+                                    TERMS OF USE <br>
+                                    PRIVACY NOTICE <br>
+                                    Bookshop for Authors <br>
+                                </div>
+                            <div class="login-signup-footer-wrapper">
+                                    <a href="#">LOGIN</a>  
+                                    <a href="#">SIGNUP</a>  
+                            </div>
+                        </div>
+                    <div class="footer-rightside">
+                        <div class="bs-logo-wrapper">
+                            <img src="img/bs-logo.png" alt="" width="50px" id="footer-logo">
+                        </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
