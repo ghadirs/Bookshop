@@ -14,7 +14,7 @@ body{
 
 .container {
     display: flex;
-    /* position: relative; */
+    position: relative;
 }
 
 /* NAVBAR */
@@ -259,8 +259,9 @@ nav {
 /* start of boklists */
 
 #recommended-books {
+    float: left;
     display: grid;
-    margin: 0% 30%;
+    margin: 0% 0px 0px 60px;
     /* height: max-content; */
     position: relative;
 }
@@ -270,9 +271,10 @@ nav {
 }
 
 #rb-title-img {
+    /* position: absolute; */
     float: left;
-    width: 20%;
-    margin: 20px 10px 0px 0px;
+    /* width: 20%; */
+    margin: 20px 50px 0px 0px;
     border-radius: 50px;
 
 }
@@ -294,8 +296,7 @@ nav {
 }
 
 .rb-books-wrapper {
-    /* display: inline-block; */
-    /* float: left; */
+    float: left;
     /* border: ; */
     position: relative;
     height: 240px;
@@ -316,8 +317,6 @@ nav {
 }
 
 .rb-books-img {
-    user-select: none;
-    -webkit-user-drag: none;
 }
 
 .view-more {
@@ -325,6 +324,7 @@ nav {
 }
 
 .rb-books-img {
+    position: relative;
     display: inline-block;
     max-width: 100px;
     height: 200px;
@@ -349,9 +349,11 @@ nav {
 /* email  */
 
 #email-section {
+    position: relative;
     background-color: rgb(255, 220, 191);
     text-align: center;
     height: 200px;
+    max-width: 100%;
 }
 
 .em-items-wrapper {
@@ -359,7 +361,7 @@ nav {
 }
 
 .em-item-wrapper {
-    margin-top: 20px;
+    margin: 20px 63px;
 }
 
 .er-text {
@@ -473,6 +475,7 @@ nav {
             transition-delay: 0.5s;
             transition-duration: 1s;
             background-image: url('img/3215614.png');
+            z-index: 1;
         }
 
         #side-bar img {
