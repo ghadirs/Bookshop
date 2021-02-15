@@ -79,7 +79,7 @@ nav {
 }
 
 #spanbt1.active {
-    translate: 0px 10px;
+    translate: 0px 0.26cm;
     transform: rotate(45deg);
     transition: ease-in .5s 0s ;
 }
@@ -90,7 +90,7 @@ nav {
 }
 
 #spanbt3.active {
-    translate: 0px 3px;
+    translate: 0px 0.07cm;
     transform: rotate(-45deg);
     transition: ease-in .5s 0s ;
 }
@@ -478,7 +478,7 @@ footer a {
 }
 
 .footer-search-wrapper img {
-    width: 15%;
+    width: 50px;
     margin-left: 1rem;
 }
 
