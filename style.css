@@ -79,7 +79,7 @@ nav {
 }
 
 #spanbt1.active {
-    transform: rotate(315);
+    transform: rotate(315deg);
     transition: ease-in .5s 0s ;
 }
 
