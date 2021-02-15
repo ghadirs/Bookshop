@@ -507,3 +507,31 @@ footer a {
     transition-delay: 0.5s;
 }
 /* end of footer */
+
+/* about page */
+
+.about {
+    height: 5in;
+}
+
+.about-container {
+    margin: 3in 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.col-lg-8 {
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    flex-grow: 3;
+    order: 2;
+}
+
+.about-container img {
+    max-width: 50%;
+    box-shadow: 5px 10px 10px black;
+    flex-grow: 1;
+    order: 1;
+}
+
+/* about end */
