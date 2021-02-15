@@ -1,5 +1,6 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
 
 /* fonts end */
 
@@ -68,27 +69,44 @@ nav {
     width: 10;
     cursor: pointer;
 }
+
 .sb-btn span{
     display: block;
     background-color: #ffcc00;
     width: 30px;
     height: 3px;
     margin: 4px 0px;
+}
 
+#spanbt1.active {
+    translate: 0px 10px;
+    transform: rotate(45deg);
+    transition: ease-in .5s 0s ;
+}
+
+#spanbt2.active {
+    display: none;
+    transition: ease-in .5s 0s;
+}
+
+#spanbt3.active {
+    translate: 0px 3px;
+    transform: rotate(-45deg);
+    transition: ease-in .5s 0s ;
 }
 
 /* sidebar */
 
 #side-bar {
     background-color: #ffcc00;
-    width: 70%;
+    width: 50%;
     height: 100%;
     position: fixed; 
     margin-top: 72px;
     border-top-left-radius: 5px;
     box-shadow: 0px 100px 100px #2c2c2c;
     z-index: 2;
-    right: -80%;
+    right: -70%;
     transition: ease 0.5s 0.5s;
 }
 
@@ -341,6 +359,8 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    align-self: center;
+    width: 80%;
 }
 
 
@@ -362,8 +382,9 @@ nav {
 }
 
 .rb-text p{
-    font-size: 18pt;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
     text-shadow: 1px 1px 5px #808080;
 }
 

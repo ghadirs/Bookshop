@@ -39,7 +39,10 @@ var sideBar = document.getElementById('side-bar');
 sbBtn.addEventListener('click', () => {
     console.log('123')
     sideBar.classList.toggle('active');
-})
+    document.getElementById('spanbt2').classList.toggle('active');
+    document.getElementById('spanbt1').classList.toggle('active');
+    document.getElementById('spanbt3').classList.toggle('active');
+});
 
 
 
